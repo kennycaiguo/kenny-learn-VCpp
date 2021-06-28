@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PrintDialog - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PrintDialog.res" /d "NDEBUG" /d "_AFXDLL" "E:\赵永发\Visual C++从入门到精通（第2版）6.8\TM\sl\6\6\PrintDialog\PrintDialog.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.MRV\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PrintDialog.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\赵永发\Visual C++从入门到精通（第2版）6.8\TM\sl\6\6\PrintDialog\PrintDialog.cpp"
+"E:\赵永发\Visual C++从入门到精通（第2版）6.8\TM\sl\6\6\PrintDialog\PrintDialogDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.MRV\LOCALS~1\Temp\RSP13.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.MRV\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PrintDialog.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\赵永发\Visual C++从入门到精通（第2版）6.8\TM\sl\6\6\PrintDialog\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.MRV\LOCALS~1\Temp\RSP14.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/PrintDialog.pdb" /machine:I386 /out:"Release/PrintDialog.exe"  ".\Release\PrintDialog.obj" ".\Release\PrintDialogDlg.obj" ".\Release\StdAfx.obj" ".\Release\PrintDialog.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PrintDialog.cpp
+PrintDialogDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PrintDialog.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
